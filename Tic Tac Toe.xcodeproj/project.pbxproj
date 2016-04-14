@@ -13,6 +13,10 @@
 		8336778D1B31059F00EA447F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8336778C1B31059F00EA447F /* Images.xcassets */; };
 		833677901B31059F00EA447F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8336778E1B31059F00EA447F /* LaunchScreen.xib */; };
 		8336779C1B31059F00EA447F /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336779B1B31059F00EA447F /* Tic_Tac_ToeTests.swift */; };
+		833677AB1B310B5300EA447F /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677AA1B310B5300EA447F /* board.png */; };
+		833677AD1B310BEF00EA447F /* flat-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677AC1B310BEF00EA447F /* flat-color.png */; };
+		833677AF1B310E4000EA447F /* black-nought-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677AE1B310E4000EA447F /* black-nought-hi.png */; };
+		833677B11B310EC400EA447F /* crosses.png in Resources */ = {isa = PBXBuildFile; fileRef = 833677B01B310EC400EA447F /* crosses.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		833677951B31059F00EA447F /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8336779A1B31059F00EA447F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8336779B1B31059F00EA447F /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		833677AA1B310B5300EA447F /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		833677AC1B310BEF00EA447F /* flat-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flat-color.png"; sourceTree = "<group>"; };
+		833677AE1B310E4000EA447F /* black-nought-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-nought-hi.png"; sourceTree = "<group>"; };
+		833677B01B310EC400EA447F /* crosses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosses.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				833677851B31059F00EA447F /* AppDelegate.swift */,
 				833677871B31059F00EA447F /* ViewController.swift */,
 				833677891B31059F00EA447F /* Main.storyboard */,
+				833677B01B310EC400EA447F /* crosses.png */,
+				833677AC1B310BEF00EA447F /* flat-color.png */,
+				833677AE1B310E4000EA447F /* black-nought-hi.png */,
+				833677AA1B310B5300EA447F /* board.png */,
 				8336778C1B31059F00EA447F /* Images.xcassets */,
 				8336778E1B31059F00EA447F /* LaunchScreen.xib */,
 				833677831B31059F00EA447F /* Supporting Files */,
@@ -192,9 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833677AD1B310BEF00EA447F /* flat-color.png in Resources */,
 				8336778B1B31059F00EA447F /* Main.storyboard in Resources */,
 				833677901B31059F00EA447F /* LaunchScreen.xib in Resources */,
+				833677AB1B310B5300EA447F /* board.png in Resources */,
+				833677B11B310EC400EA447F /* crosses.png in Resources */,
 				8336778D1B31059F00EA447F /* Images.xcassets in Resources */,
+				833677AF1B310E4000EA447F /* black-nought-hi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
